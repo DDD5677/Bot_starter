@@ -1,7 +1,7 @@
 import { BotCtx } from "../../types/context";
 import errorHandler from "../../utils/errorHandler";
 
-const fn = async (ctx: BotCtx) => {
+const fn = (ctx: BotCtx) => {
    ctx.reply("Assalomu alaykum");
 };
 
